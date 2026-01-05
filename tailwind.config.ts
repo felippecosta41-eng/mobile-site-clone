@@ -63,6 +63,11 @@ export default {
           light: "hsl(var(--purple-light))",
           pale: "hsl(var(--purple-pale))",
         },
+        spotify: {
+          DEFAULT: "hsl(var(--spotify-green))",
+          light: "hsl(var(--spotify-green-light))",
+          dark: "hsl(var(--spotify-green-dark))",
+        },
         lavender: "hsl(var(--lavender))",
         cream: "hsl(var(--cream))",
       },
@@ -98,6 +103,7 @@ export default {
       boxShadow: {
         'glow-gold': '0 0 30px hsl(43 85% 50% / 0.3)',
         'glow-purple': '0 0 30px hsl(276 40% 25% / 0.3)',
+        'glow-green': '0 0 30px hsl(141 73% 42% / 0.3)',
         'soft': '0 4px 20px hsl(270 20% 50% / 0.1)',
         'elevated': '0 8px 30px hsl(270 20% 50% / 0.15)',
       },
